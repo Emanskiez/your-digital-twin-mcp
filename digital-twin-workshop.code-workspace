@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "digital-twin-workshop",
+			"path": "."
+		},
+		{
+			"name": "mydigitaltwin",
+			"path": "../../mydigitaltwin"
+		},
+		{
+			"name": "node_modules",
+			"path": "../../node_modules"
+		}
+	],
+	"settings": {}
+}

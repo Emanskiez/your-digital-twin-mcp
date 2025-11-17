@@ -1,0 +1,141 @@
+{
+  "personal_information": {
+    "name": "Chris Emmanuel Dizon",
+    "location": "Australia",
+    "fields_of_interest": ["Network Engineering", "Enterprise Networking", "Cloud Networking", "Network Security", "Network Automation"],
+    "career_focus": "Network Engineering & Infrastructure Design",
+    "availability": "Seeking internship/graduate roles, flexible for part-time during studies"
+  },
+  "salary_expectations": {
+    "hourly_rate": "$30-40 AUD per hour",
+    "role_type": "Internship, Graduate Program, or Entry-Level Network Engineering",
+    "notes": "Open to discussion based on learning opportunities and career growth potential"
+  },
+  "education": {
+    "degree": "Bachelor of Science in Information Technology",
+    "specialization": "Networking and Cybersecurity",
+    "status": "Currently studying",
+    "expected_graduation": "On track for timely completion",
+    "relevant_coursework": ["Network Architecture", "Routing and Switching", "Network Security", "Cloud Infrastructure"],
+    "additional_learning": ["GMetrix Networking modules", "Hackathon participation", "Self-paced CCNA preparation"]
+  },
+  "certifications": {
+    "in_progress": ["CCNA (Cisco Certified Network Associate)"],
+    "target_certifications": ["CCNA", "CompTIA Network+", "AWS Certified Solutions Architect Associate"],
+    "completed": []
+  },
+  "skills": {
+    "networking_skills": [
+      "TCP/IP fundamentals and protocol analysis",
+      "Routing protocols (RIP, OSPF, EIGRP concepts)",
+      "Switching and VLANs configuration",
+      "Subnetting and IP addressing (CIDR, VLSM)",
+      "Network topology design",
+      "Cisco Packet Tracer lab experience (50+ labs completed)",
+      "Network troubleshooting methodologies",
+      "OSI and TCP/IP model understanding"
+    ],
+    "technical_skills": [
+      "Linux administration basics (Ubuntu, CentOS)",
+      "Network security fundamentals (ACLs, firewalls)",
+      "Cloud networking concepts (VPC, Virtual Networks)",
+      "Network automation interest (Python scripting exposure)",
+      "AI-assisted development and automation",
+      "RAG (Retrieval-Augmented Generation) implementation",
+      "GitHub workflows and version control",
+      "Infrastructure as Code concepts"
+    ],
+    "tools_and_platforms": [
+      "Cisco Packet Tracer (Advanced)",
+      "GNS3 (Learning)",
+      "Wireshark (Basic packet analysis)",
+      "GitHub & Git version control",
+      "VS Code with network automation extensions",
+      "Upstash Vector databases",
+      "Groq AI inference platform",
+      "Cloud platforms exposure (AWS, Azure concepts)"
+    ],
+    "soft_skills": [
+      "Problem-solving and analytical thinking",
+      "Self-directed learning and research",
+      "Technical documentation",
+      "Team collaboration through GitHub",
+      "Eagerness to learn new technologies"
+    ]
+  },
+  "projects": [
+    {
+      "name": "RAG Food Project - AI-Powered Data System",
+      "description": "Built an intelligent data system using Retrieval-Augmented Generation (RAG) architecture, demonstrating ability to integrate modern AI with infrastructure. System fetches, processes, and serves data across local, cloud, and web environments.",
+      "role": "Full-stack Developer & AI Integration Specialist",
+      "technical_details": {
+        "architecture": "RAG-based system with vector embeddings",
+        "technologies": ["Upstash Vector DB", "Groq AI (LLaMA 3.1)", "Next.js", "TypeScript", "GitHub Actions"],
+        "networking_relevance": "Implemented data flow across multiple network environments, cloud infrastructure integration, API-based communication"
+      },
+      "key_achievements": [
+        "Designed and implemented multi-environment data synchronization",
+        "Developed AI prompting strategies for accurate system responses",
+        "Built scalable cloud-native architecture",
+        "Automated deployment workflows using GitHub Actions",
+        "Demonstrated understanding of distributed systems and data flow"
+      ],
+      "learnings": [
+        "Cloud networking and data routing patterns",
+        "API integration and network communication",
+        "Infrastructure design for distributed systems",
+        "DevOps practices and CI/CD pipelines"
+      ],
+      "relevance_to_networking": "Showcases understanding of data flow, cloud infrastructure, API communication, and distributed systems - all critical for modern network engineering roles",
+      "github_link": "https://github.com/Emanskiez/Manuel-Restaurant",
+      "live_demo": "Available upon request"
+    },
+    {
+      "name": "Network Lab Environment (Ongoing)",
+      "description": "Comprehensive hands-on practice using Cisco Packet Tracer to build and configure enterprise network topologies.",
+      "technical_details": {
+        "completed_labs": "50+ Packet Tracer labs covering routing, switching, WAN technologies",
+        "topics_covered": ["Router and switch configuration", "VLAN implementation", "Inter-VLAN routing", "Static and dynamic routing", "ACL configuration", "NAT/PAT", "DHCP and DNS services"]
+      },
+      "key_achievements": [
+        "Built enterprise network topologies from scratch",
+        "Configured multi-router networks with routing protocols",
+        "Implemented network security using ACLs",
+        "Troubleshot complex network connectivity issues",
+        "Documented network designs and configurations"
+      ]
+    }
+  ],
+  "goals": {
+    "immediate": ["Complete CCNA certification", "Secure network engineering internship", "Graduate on time"],
+    "short_term": ["Gain hands-on experience in enterprise networking", "Build home network lab", "Contribute to network automation projects"],
+    "long_term": ["Become a skilled network engineer specializing in enterprise infrastructure", "Achieve senior network architect position", "Specialize in network automation and SDN"],
+    "learning_focus": ["CCNA certification completion", "Network automation with Python", "Cloud networking (AWS, Azure)", "Advanced routing and switching", "Network security best practices"],
+    "preferred_roles": [
+      "Network Engineering Intern",
+      "Graduate Network Engineer",
+      "Junior Network Administrator",
+      "Network Operations Center (NOC) Analyst",
+      "Cloud Network Engineer (Entry-level)"
+    ],
+    "preferred_industries": ["Enterprise Networking", "Managed Service Providers", "Cloud Infrastructure Providers", "Telecommunications", "Cybersecurity (Network Security focus)"]
+  },
+  "interview_preparation": {
+    "behavioral_questions": [
+      "Describe a time you solved a difficult problem.",
+      "How do you handle teamwork challenges?"
+    ],
+    "technical_questions": [
+      "Explain the difference between a switch and a router.",
+      "How does subnetting work?"
+    ],
+    "situational_questions": [
+      "What would you do if the network suddenly went down?",
+      "How do you prioritize tasks when overwhelmed?"
+    ],
+    "weakness": {
+      "description": "Limited hands-on experience",
+      "mitigation": "Performing Packet Tracer labs and studying online"
+    }
+  }
+}
