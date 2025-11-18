@@ -1,4 +1,4 @@
-import { testVercelEnv } from "./test-env";
+import { testVercelEnv } from "../test-env";
 
 export default async function TestEnvPage() {
   const env = await testVercelEnv();
