@@ -1,5 +1,5 @@
-import DigitalTwinChat from "@/components/digital-twin-chat";
+import PortfolioHero from "@/components/portfolio-hero";
 
 export default function Home() {
-  return <DigitalTwinChat />;
+  return <PortfolioHero />;
 }
