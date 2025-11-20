@@ -1,6 +1,6 @@
 "use client";
 
-import { Facebook, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Facebook, Linkedin, Mail, MapPin, Phone, Github } from "lucide-react";
 import digitalTwinData from "@/data/digitaltwin.json";
 
 export default function Footer() {
@@ -60,6 +60,15 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/Emanskiez"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full bg-gray-700 border-2 border-gray-700 flex items-center justify-center text-white hover:bg-gray-800 hover:border-gray-800 transition-all duration-300 hover:scale-110"
+                aria-label="GitHub"
+              >
+                <Github className="w-5 h-5" />
               </a>
             </div>
           </div>

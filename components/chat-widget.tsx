@@ -92,7 +92,7 @@ export default function ChatWidget() {
       {/* Chat Button with Animation */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 w-14 h-14 bg-[#2c2c2c] hover:bg-[#1a1a1a] text-white rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl hover:shadow-black/40 transition-all duration-300 z-40 hover:scale-110"
+        className="fixed bottom-6 right-6 w-14 h-14 bg-slate-800 hover:bg-slate-900 text-white rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl hover:shadow-slate-900/40 transition-all duration-300 z-40 hover:scale-110"
         aria-label="Chat with interview agent"
         title="Chat with me - if you dare to interview an AI-powered version of me! 😉"
       >
@@ -101,7 +101,7 @@ export default function ChatWidget() {
         ) : (
           <>
             <MessageCircle className="w-6 h-6" />
-            <span className="absolute -top-8 right-0 bg-[#8B6F47] text-white text-xs font-bold px-2 py-1 rounded whitespace-nowrap shadow-lg animate-in fade-in slide-in-from-top-2 duration-500">
+            <span className="absolute -top-8 right-0 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded whitespace-nowrap shadow-lg animate-in fade-in slide-in-from-top-2 duration-500">
               Chat with me 🤖
             </span>
           </>
@@ -110,22 +110,22 @@ export default function ChatWidget() {
 
       {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-2rem)] bg-white border-2 border-[#2c2c2c] rounded-2xl shadow-2xl shadow-black/20 flex flex-col z-40 h-[600px] overflow-hidden backdrop-blur-xl animate-in fade-in slide-in-from-bottom-4 duration-300">
+        <div className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-2rem)] bg-white border-2 border-slate-800 rounded-2xl shadow-2xl shadow-black/20 flex flex-col z-40 h-[600px] overflow-hidden backdrop-blur-xl animate-in fade-in slide-in-from-bottom-4 duration-300">
           {/* Chat Header */}
-          <div className="bg-[#2c2c2c] border-b-2 border-[#8B6F47] px-6 py-5 flex items-center justify-between">
+          <div className="bg-slate-800 border-b-2 border-slate-700 px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-[#8B6F47] flex items-center justify-center text-sm font-bold text-white shadow-lg">
+              <div className="w-10 h-10 rounded-lg bg-slate-700 flex items-center justify-center text-sm font-bold text-white shadow-lg">
                 🤖
               </div>
               <div>
                 <h3 className="text-white font-bold text-base">Chris's Digital Twin</h3>
-                <p className="text-gray-300 text-xs">Powered by Groq AI • Interview-Ready</p>
+                <p className="text-slate-400 text-xs">Powered by Groq AI • Interview-Ready</p>
               </div>
             </div>
           </div>
 
           {/* Messages Container */}
-          <div className="flex-1 overflow-y-auto px-6 py-5 space-y-4 bg-gray-50 scrollbar-thin scrollbar-track-white/5 scrollbar-thumb-[#8B6F47]/30 hover:scrollbar-thumb-[#8B6F47]/50">
+          <div className="flex-1 overflow-y-auto px-6 py-5 space-y-4 bg-gray-50 scrollbar-thin scrollbar-track-white/5 scrollbar-thumb-slate-400/30 hover:scrollbar-thumb-slate-400/50">
             {messages.map((message) => (
               <div
                 key={message.id}
@@ -134,8 +134,8 @@ export default function ChatWidget() {
                 <div
                   className={`max-w-xs px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105 ${
                     message.sender === "user"
-                      ? "bg-[#2c2c2c] text-white shadow-lg shadow-black/20 rounded-br-none"
-                      : "bg-gray-200 border border-[#2c2c2c]/20 text-gray-800 shadow-lg shadow-gray-900/10 rounded-bl-none"
+                      ? "bg-slate-800 text-white shadow-lg shadow-black/20 rounded-br-none"
+                      : "bg-gray-200 border border-slate-300 text-gray-800 shadow-lg shadow-gray-900/10 rounded-bl-none"
                   }`}
                 >
                   {message.text}
@@ -144,15 +144,15 @@ export default function ChatWidget() {
             ))}
             {isLoading && (
               <div className="flex justify-start animate-in fade-in duration-200">
-                <div className="bg-gray-200 border border-[#2c2c2c]/20 text-gray-800 px-4 py-3 rounded-lg text-sm rounded-bl-none shadow-lg shadow-gray-900/10">
+                <div className="bg-gray-200 border border-slate-300 text-gray-800 px-4 py-3 rounded-lg text-sm rounded-bl-none shadow-lg shadow-gray-900/10">
                   <div className="flex gap-2">
-                    <span className="w-2 h-2 bg-[#8B6F47] rounded-full animate-bounce shadow-lg shadow-[#8B6F47]/60"></span>
+                    <span className="w-2 h-2 bg-slate-600 rounded-full animate-bounce shadow-lg shadow-slate-600/60"></span>
                     <span
-                      className="w-2 h-2 bg-[#8B6F47] rounded-full animate-bounce shadow-lg shadow-[#8B6F47]/60"
+                      className="w-2 h-2 bg-slate-600 rounded-full animate-bounce shadow-lg shadow-slate-600/60"
                       style={{ animationDelay: "0.2s" }}
                     ></span>
                     <span
-                      className="w-2 h-2 bg-[#8B6F47] rounded-full animate-bounce shadow-lg shadow-[#8B6F47]/60"
+                      className="w-2 h-2 bg-slate-600 rounded-full animate-bounce shadow-lg shadow-slate-600/60"
                       style={{ animationDelay: "0.4s" }}
                     ></span>
                   </div>
@@ -163,19 +163,19 @@ export default function ChatWidget() {
           </div>
 
           {/* Input Area */}
-          <div className="border-t-2 border-[#2c2c2c]/10 bg-white px-4 py-4">
+          <div className="border-t-2 border-slate-200 bg-white px-4 py-4">
             <form onSubmit={handleSendMessage} className="flex gap-3">
               <input
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Ask me anything..."
-                className="flex-1 bg-gray-100 border-2 border-[#2c2c2c]/20 rounded-lg px-4 py-2.5 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-[#2c2c2c] focus:bg-white transition-all duration-300 text-sm font-medium focus:shadow-lg focus:shadow-black/10"
+                className="flex-1 bg-gray-100 border-2 border-slate-300 rounded-lg px-4 py-2.5 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-slate-800 focus:bg-white transition-all duration-300 text-sm font-medium focus:shadow-lg focus:shadow-slate-900/10"
               />
               <button
                 type="submit"
                 disabled={isLoading || !input.trim()}
-                className="bg-[#2c2c2c] hover:bg-[#1a1a1a] disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-lg px-4 py-2.5 font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-black/40 disabled:scale-100"
+                className="bg-slate-800 hover:bg-slate-900 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-lg px-4 py-2.5 font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-slate-900/40 disabled:scale-100"
               >
                 <Send className="w-5 h-5" />
               </button>
