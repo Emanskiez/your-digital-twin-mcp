@@ -1,7 +1,7 @@
 {
   "personal_information": {
     "name": "Chris Emmanuel Dizon",
-    "location": "Australia",
+    "location": "Tuguegarao City, Cagayan Valley, Philippines",
     "fields_of_interest": ["Network Engineering", "Enterprise Networking", "Cloud Networking", "Network Security", "Network Automation"],
     "career_focus": "Network Engineering & Infrastructure Design",
     "availability": "Seeking internship/graduate roles, flexible for part-time during studies"
@@ -13,7 +13,8 @@
   },
   "education": {
     "degree": "Bachelor of Science in Information Technology",
-    "specialization": "Networking and Cybersecurity",
+    "specialization": "Web Development",
+    "career_pursuit": "Network Engineering",
     "status": "Currently studying",
     "expected_graduation": "On track for timely completion",
     "relevant_coursework": ["Network Architecture", "Routing and Switching", "Network Security", "Cloud Infrastructure"],
@@ -91,8 +92,8 @@
       "live_demo": "Available upon request"
     },
     {
-      "name": "Network Lab Environment (Ongoing)",
-      "description": "Comprehensive hands-on practice using Cisco Packet Tracer to build and configure enterprise network topologies.",
+      "name": "Scholarship Monitoring System with Data Analytics",
+      "description": "A system that is used for the Registrar in the University for proper recording of scholarships per semester.",
       "technical_details": {
         "completed_labs": "50+ Packet Tracer labs covering routing, switching, WAN technologies",
         "topics_covered": ["Router and switch configuration", "VLAN implementation", "Inter-VLAN routing", "Static and dynamic routing", "ACL configuration", "NAT/PAT", "DHCP and DNS services"]
@@ -103,7 +104,8 @@
         "Implemented network security using ACLs",
         "Troubleshot complex network connectivity issues",
         "Documented network designs and configurations"
-      ]
+      ],
+      "github_link": "https://github.com/jedeee-ei/scholarship_1"
     }
   ],
   "goals": {

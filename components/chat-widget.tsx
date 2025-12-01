@@ -21,7 +21,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Hey! 👋 I'm Chris's Digital Twin. Ask me anything about his background, skills, projects, or goals. Keep it focused—I'm here to answer your questions!",
+      text: "Hey there! 👋 I'm Chris. Feel free to ask me anything about my background, what I'm working on, my skills, or where I'm heading career-wise. Let's chat!",
       sender: "assistant",
       timestamp: new Date(),
     },
@@ -115,11 +115,11 @@ export default function ChatWidget() {
           <div className="bg-slate-800 border-b-2 border-slate-700 px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-slate-700 flex items-center justify-center text-sm font-bold text-white shadow-lg">
-                🤖
+                👤
               </div>
               <div>
-                <h3 className="text-white font-bold text-base">Chris's Digital Twin</h3>
-                <p className="text-slate-400 text-xs">Powered by Groq AI • Interview-Ready</p>
+                <h3 className="text-white font-bold text-base">Chris Emmanuel Dizon</h3>
+                <p className="text-slate-400 text-xs">Online • Let's have a conversation!</p>
               </div>
             </div>
           </div>
